@@ -30,6 +30,18 @@ Make sure you have installed all of the following prerequisites on your developm
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Python - [Download & Install Python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/) - Minimum requirement 3.8.x
 
+
+## 3rd Party Library Dependencies 
+YaDV uses following 3rd party tools/libraries:
+
+| 3rd Party      | Reference Link |
+| ----------- | ----------- |
+| OpenCV | https://opencv.org/|
+| Megamimes | https://github.com/trumpowen/MegaMimes |
+| Tesseract-OCR | https://github.com/tesseract-ocr/tesseract |
+| katna | https://katna.readthedocs.io/en/latest/ |
+| pdf2image | https://pypi.org/project/pdf2image/ |
+
 ## Installation
 YaDV is based on streamlit and streamlit can also be installed in a virtual environment on Windows, Mac and Linux. 
 
