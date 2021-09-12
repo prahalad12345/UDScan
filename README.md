@@ -10,7 +10,7 @@
 | IWR(Intelligent Word Recognition)      | Target typewritten printed script or cursive text word at a time. This is especially useful for language where glyphs are not separated in cursive script |
 
 
-## Problem solved by UScan
+## Problem solved by UDScan
 * UDScan is a framework used for digitizing printed text so that it can be electronically edited, searched, stored more compactly, displayed online and used in machine processes such as Machine learning, Text to Speech and Text Mining .
 
 * Converts an unscanned image, pdf or video into text format 
@@ -44,7 +44,7 @@ YaDV uses following 3rd party tools/libraries:
 | pdf2image | https://pypi.org/project/pdf2image/ |
 
 ## Installation
-YaDV is based on streamlit and streamlit can also be installed in a virtual environment on Windows, Mac and Linux. 
+Library Installation for the working of UDScan
 
 ```bash
 C++ Installations:
@@ -66,5 +66,7 @@ pip install katna
 pip install opencv-python
 pip install pdf2image
 ```
+## License
 
+UDScan is completely free and open-source 
 
