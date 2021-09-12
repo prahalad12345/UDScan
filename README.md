@@ -29,6 +29,7 @@ Make sure you have installed all of the following prerequisites on your developm
 
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * Python - [Download & Install Python3](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/) - Minimum requirement 3.8.x
+* C++ -[Install g++ if on Windows.] (https://www3.cs.stonybrook.edu/~alee/g++/g++.html)
 
 
 ## 3rd Party Library Dependencies 
@@ -46,28 +47,24 @@ YaDV uses following 3rd party tools/libraries:
 YaDV is based on streamlit and streamlit can also be installed in a virtual environment on Windows, Mac and Linux. 
 
 ```bash
-Installation in C++:
-| OpenCV | https://opencv.org/|
+C++ Installations:
+1) OpenCV:
+   Linux:https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
+   Windows:https://learnopencv.com/install-opencv-on-windows/
+   Macos:https://learnopencv.com/install-opencv-4-on-macos/
+   
+2) Megamimes
+
+3) Tesseract-OCR:
+   https://tesseract-ocr.github.io/tessdoc/Compiling-–-GitInstallation.html
 ```
-
-
 
 
 ```bash
-pip install streamlit
-pip install numpy
-pip install fastai
-pip install -Uqq fastbook
-pip install pytorch
-pip install streamlit-drawable-canvas
-pip install cryptohash
-pip install pandas
-pip install pydicom
+Python Installations:
+pip install katna
 pip install opencv-python
-pip install skimage
-pip install matplotlib
-pip install plotly
-pip install mplot3d-dragger
-pip install graphviz
-pip install scikit-image
+pip install pdf2image
 ```
+
+
