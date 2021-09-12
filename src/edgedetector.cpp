@@ -1,10 +1,5 @@
 #include "edgedetector.h"
-/*
-int main(){
-	Mat img=imread("scanned-form.jpg");
-	imshow("image",img);
-	waitKey(0);
-}*/
+
 
 void Edgedetector::transform(OCRData* ocrdata){
     /*using canny edge detector after gaussian bluring the image

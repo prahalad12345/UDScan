@@ -4,7 +4,6 @@
 
 OCRInput* Pdfinput::creation(string path){
     OCRInput* input = new OCRInput();
-    //string patth="./example.pdf";
     string scython="python3 ./src/pdf2img.py ";
     scython.append(path);
     int sys1=system(scython.c_str()); 
@@ -19,7 +18,6 @@ OCRInput* Pdfinput::creation(string path){
         Mat image=imread(imagename[i]);
         input->images.push_back(image);
     }
-    //cout<<count<<endl;
     string newpath="rm "+pathh+"*";
     int sys2=system(newpath.c_str());
     if(sys2==-1){

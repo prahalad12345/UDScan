@@ -1,12 +1,6 @@
 #include "contours.h"
 #include "reordering.h"
 #include "utility.h"
-/*
-int main(){
-	Mat img=imread("scanned-form.jpg");
-	imshow("image",img);
-	waitKey(0);
-}*/
 
 void Contourdetector::transform(OCRData* ocrdata){
     for(int i=0;i<(int)(ocrdata->images.size());i++){    

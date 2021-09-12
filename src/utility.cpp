@@ -1,10 +1,5 @@
 #include "utility.h"
 
-/*int main(){
-	Mat img=imread("scanned-form.jpg");
-	imshow("image",img);
-	waitKey(0);
-}*/
 
 bool Utility::Comparexcords(Point p1,Point p2){
     return (p1.x < p2.x);
@@ -56,21 +51,16 @@ void Utility::getFileNames(string dirName, vector<string> &imageFnames)
 
     // Sort file names
     std::sort(files.begin(),files.end());
-    //cout<<files.size()<<endl;
-    //cout<<files[0]<<endl;
     for(int it=0;it<(int)files.size();it++)
     {
       string path = dirName;
       string fname = files[it];
-      //cout<<path<<endl;
-      //if (fname.find(imgExt, (fname.length() - imgExt.length())) != std::string::npos)
-      //{
-        path.append(fname);
-        imageFnames.push_back(path);
-        cout<<path<<endl;
-      //}
+
+      path.append(fname);
+      imageFnames.push_back(path);
+      cout<<path<<endl;
+ 
     }
-    //cout<<imageFnames.size()<<endl;
     closedir (dir);
   }
 }

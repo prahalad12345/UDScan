@@ -11,9 +11,7 @@
 
 
 void OCRTransform::init(){
-    //imgreader=new Imagereader();
     edgedetection=new Edgedetector();
-    //imgreader->setnexthandler(edgedetection);
     OCRHandler* contourdetection=new Contourdetector();
     edgedetection->setnexthandler(contourdetection);
     OCRHandler* orientation=new Orientation();
@@ -22,7 +20,6 @@ void OCRTransform::init(){
     orientation->setnexthandler(ocrreader);
     ocrreader->setnexthandler(nullptr);
 }
-//OCRoutput*
 OCROutput* OCRTransform::transform(OCRInput *input){
     OCRinputhandler* chandler=new OCRinputhandler();
     OCRData *ocrdata=chandler->transform(input);
@@ -32,7 +29,6 @@ OCROutput* OCRTransform::transform(OCRInput *input){
         handler->transform(ocrdata);
         handler=handler->getNextHandler();
     }
-    //return OCRUtil::convert(ocrdata);
     OCROutputhandler *handlerr=new OCROutputhandler();
     return handlerr->transform(ocrdata);
 

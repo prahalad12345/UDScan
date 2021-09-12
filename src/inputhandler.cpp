@@ -8,7 +8,6 @@ extern "C" {
 }
 
 OCRInput* OCRinputhandler::factory(string path){
-    //const char* pathh=const_cast<const char*>(path));
     char* pathh;
     pathh=&path[0];
     string mimetype=getMegaMimeType(pathh) ;

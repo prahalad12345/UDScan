@@ -1,10 +1,4 @@
 #include "orientation.h"
-/*
-int main(){
-	Mat img=imread("scanned-form.jpg");
-	imshow("image",img);
-	waitKey(0);
-}*/
 
 void Orientation::transform(OCRData *ocrdata){
     /*
