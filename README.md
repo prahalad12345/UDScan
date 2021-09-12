@@ -66,6 +66,16 @@ pip install katna
 pip install opencv-python
 pip install pdf2image
 ```
+
+## Running UDScan
+UDScan can be executed used following command:
+
+```bash
+1)mkdir ./src/page
+2)change the input file in src/driver.cpp
+3)make run
+```
+
 ## License
 
 UDScan is completely free and open-source 
