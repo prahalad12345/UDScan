@@ -10,9 +10,10 @@
 | IWR(Intelligent Word Recognition)      | Target typewritten printed script or cursive text word at a time. This is especially useful for language where glyphs are not separated in cursive script |
 
 
-#Problem solved by UScan
+## Problem solved by UScan
 * UDScan is a framework used for digitizing printed text so that it can be electronically edited, searched, stored more compactly, displayed online and used in machine processes such as Machine learning, Text to Speech and Text Mining .
 
 * Converts an unscanned image, pdf or video into text format 
 
-#UDScan Architecture
+## UDScan Architecture
+![UDScan Architecture](https://github.com/prahalad12345/UDScan/blob/d59ea81a3effaf9aedf32e620340776292bbfefa/images/yadvModule.png)
