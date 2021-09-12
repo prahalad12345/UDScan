@@ -1,5 +1,5 @@
-# UScan
-**UScan is an OCR System to convert Images, Streams and PDF to printed text..**
+# UDScan
+**UDScan or Unstructured Data Scan is an OCR System to convert Images, Streams and PDF to printed text..**
 
 ## Glossary
 | Term      | Description |
@@ -10,3 +10,9 @@
 | IWR(Intelligent Word Recognition)      | Target typewritten printed script or cursive text word at a time. This is especially useful for language where glyphs are not separated in cursive script |
 
 
+#Problem solved by UScan
+* UDScan is a framework used for digitizing printed text so that it can be electronically edited, searched, stored more compactly, displayed online and used in machine processes such as Machine learning, Text to Speech and Text Mining .
+
+* Converts an unscanned image, pdf or video into text format 
+
+#UDScan Architecture
