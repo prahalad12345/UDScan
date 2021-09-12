@@ -16,4 +16,4 @@
 * Converts an unscanned image, pdf or video into text format 
 
 ## UDScan Architecture
-![UDScan Architecture](https://github.com/prahalad12345/UDScan/blob/d59ea81a3effaf9aedf32e620340776292bbfefa/images/yadvModule.png)
+![UDScan Architecture](https://github.com/prahalad12345/UDScan/blob/5d021c4028ca3f7413f08d91bc829f3da5fdb640/images/architecture.png)
