@@ -3,9 +3,11 @@
 #include "ocrtransform.h"
 #include "inputhandler.h"
 
+/*
+    driver program 
+*/
 int main(){
-    
-    string path = "/home/prahalad/Downloads/20210905_175306.jpg";
+    string path = "../bill.jpg";
     OCRinputhandler* driving=new OCRinputhandler();
     OCRInput* input=driving->factory(path);
     OCRTransform* transformer=new OCRTransform();

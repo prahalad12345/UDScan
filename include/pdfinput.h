@@ -2,6 +2,9 @@
 #define _PDFINPUT_H
 
 #include "create.h"
+/*
+    header file deals with creation of pdf input file
+*/
 
 class  Pdfinput: public OCRcreate{
     public:

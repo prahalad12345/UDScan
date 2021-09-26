@@ -13,6 +13,9 @@
 using namespace std;
 using namespace cv;
 
+/*
+    just another datatype
+*/
 class OCRInput{
     public:
         vector<Mat> images;

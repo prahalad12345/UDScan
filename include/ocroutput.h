@@ -13,6 +13,9 @@
 using namespace std;
 using namespace cv;
 
+/*
+    OCROutput is another datatype
+*/
 class OCROutput{
     public:
         vector<Mat> resultimage;

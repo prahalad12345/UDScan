@@ -4,6 +4,10 @@
 #include "ocrinput.h"
 #include "ocrdata.h"
 
+/*
+    header file that creates an OCRInput data based on the string path
+    converts OCRInput type to OCRData type
+*/
 class OCRinputhandler{
     public:
         OCRInput* factory(string path);

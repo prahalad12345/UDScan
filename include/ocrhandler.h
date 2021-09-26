@@ -2,6 +2,9 @@
 #define _OCRHANDLER_H
 #include "ocrdata.h"
 
+/*
+    header file deals with the pointer to the linked list containing the functions to be implemented
+*/
 
 class OCRHandler{
     protected:

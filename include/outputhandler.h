@@ -3,6 +3,9 @@
 #include "ocroutput.h"
 #include "ocrdata.h"
 
+/*
+    OCRDdata -> OCROutput datatype
+*/
 class OCROutputhandler{
     public:
         OCROutput* transform(OCRData* ocrdata);

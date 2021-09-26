@@ -1,5 +1,13 @@
 #include "utility.h"
-
+/*
+  consist of all the utility function necessary 
+  1.compare x coordinates
+  2.compare y coordinate
+  3.compare distance between the coordinate
+  4.finding the distance between two points
+  5.comparing contours
+  6.extract filenames in a specific folder
+*/
 
 bool Utility::Comparexcords(Point p1,Point p2){
     return (p1.x < p2.x);

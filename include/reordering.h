@@ -10,6 +10,9 @@
 using namespace cv;
 using namespace std;
 
+/*
+   arranging points to perform proper orientation
+*/
 class Reordering{
    public:
       void orderPoints(vector<Point> inputs, vector<Point> &ordered);

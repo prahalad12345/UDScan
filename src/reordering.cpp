@@ -1,6 +1,8 @@
 #include "reordering.h"
 #include "utility.h"
-
+/*
+	reordering arranges points based on thier position in a specific order so that points dont get mismatched
+*/
 void Reordering::orderPoints(vector<Point> inpts, vector<Point> &ordered)
 {
 

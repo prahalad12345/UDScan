@@ -9,7 +9,10 @@
 #include "inputhandler.h"
 //#pragma once
 
-
+/*
+    init functino creates a linked list that consist of all the necessary steps to be taken
+    (chain of responsibility)
+*/
 void OCRTransform::init(){
     edgedetection=new Edgedetector();
     OCRHandler* contourdetection=new Contourdetector();
@@ -20,6 +23,9 @@ void OCRTransform::init(){
     orientation->setnexthandler(ocrreader);
     ocrreader->setnexthandler(nullptr);
 }
+/*
+    transform function passes through the linked list executing each function in the chain
+*/
 OCROutput* OCRTransform::transform(OCRInput *input){
     OCRinputhandler* chandler=new OCRinputhandler();
     OCRData *ocrdata=chandler->transform(input);

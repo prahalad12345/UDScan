@@ -1,7 +1,10 @@
 #include "streaminput.h"
 #include "utility.h"
 #include <string>
-
+/*
+    if the mime type in  inputhandler is video/msvideo or video/mp4 then this function is called.
+    this function convert video file to image and store it in  a OCRInput type and returns it.
+*/
 
 OCRInput* Streaminput::creation(string path){
     OCRInput* input = new OCRInput();

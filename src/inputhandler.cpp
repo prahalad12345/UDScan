@@ -7,6 +7,10 @@ extern "C" {
     #include "MegaMimes.h"
 }
 
+/*
+    based on the mimetype of each file .
+    An input object is created.
+*/
 OCRInput* OCRinputhandler::factory(string path){
     char* pathh;
     pathh=&path[0];
@@ -14,18 +18,22 @@ OCRInput* OCRinputhandler::factory(string path){
     OCRInput* input=new OCRInput();
     OCRcreate* images; 
     cout<<mimetype<<endl;
+
     if(mimetype=="image/jpeg" || mimetype=="image/png"){
         images=new Imageinput();
         input=images->creation(path);
     }
+
     else if(mimetype=="video/msvideo" || mimetype=="video/mp4"){
         images=new Streaminput();
         input=images->creation(path);
     }
+
     else if(mimetype=="application/pdf"){
         images=new Pdfinput();
         input=images->creation(path);
     }
+    
     return input;
 }
 
